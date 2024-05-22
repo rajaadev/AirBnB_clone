@@ -1,4 +1,3 @@
-Impossible de créer, modifier ou importer … Espace de stockage insuffisant. Profitez de 100 Go de stockage pour 19,00 MAD 4,75 MAD pendant 1 mois.
 #!/usr/bin/python3
 """Defines unittests for models/amenity.py.
 
@@ -188,3 +187,4 @@ class TestAmenity_to_dict(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    unittest.main()
