@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Places</title>
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
+</head>
+<body>
+    <header>
+        <h1>Website Header</h1>
+    </header>
+    <div class="container">
+        <section class="filters">
+            <h2>Filters</h2>
+            <label for="filter-select" class="sr-only">Select filter</label>
+            <select id="filter-select">
+                <option value="">Filter Option 1</option>
+                <option value="">Filter Option 2</option>
+                <option value="">Filter Option 3</option>
+            </select>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <div class="places-list">
+                <article>
+                    <h2>Place Name 1</h2>
+                    <div class="price_by_night" aria-label="Price per night">$100</div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <span>4 Guests</span>
+                            <span class="icon" aria-hidden="true">👥</span>
+                        </div>
+                        <div class="number_rooms">
+                            <span>2 Bedrooms</span>
+                            <span class="icon" aria-hidden="true">🛏️</span>
+                        </div>
+                        <div class="number_bathrooms">
+                            <span>1 Bathroom</span>
+                            <span class="icon" aria-hidden="true">🛁</span>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <strong>Owner:</strong> John Doe
+                    </div>
+                    <div class="description">
+                        <p>Description of the place goes here.</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>
+                                <span class="icon" aria-hidden="true">🐾</span> Pet friendly
+                            </li>
+                            <li>
+                                <span class="icon" aria-hidden="true">📺</span> TV
+                            </li>
+                            <li>
+                                <span class="icon" aria-hidden="true">📶</span> Wifi
+                            </li>
+                            <li>
+                                <span class="icon" aria-hidden="true">🍽️</span> Kitchen
+                            </li>
+                            <li>
+                                <span class="icon" aria-hidden="true">🚗</span> Free parking
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan on 27th January 2017</h3>
+                                <p>Great place, very comfortable and close to the city center.</p>
+                            </li>
+                            <li>
+                                <h3>From Alice Smith on 15th February 2018</h3>
+                                <p>Lovely stay, would definitely come back again!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <!-- Add more articles as needed -->
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Website Footer</p>
+    </footer>
+</body>
+</html>

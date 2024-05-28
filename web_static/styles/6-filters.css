@@ -1,0 +1,13 @@
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.filters select {
+    padding: 5px;
+    font-size: 16px;
+}
